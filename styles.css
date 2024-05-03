@@ -1,0 +1,118 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, sans-serif;
+    display: flex;
+    flex-flow: column;
+    font-size: 18px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+img {
+    object-fit: cover;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.introduction-subtext, .header-links {
+    color: #E5E7EB;
+}
+
+.logo-text {
+    font-weight: 1000;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.top {
+    display: flex;
+    flex-flow: column;
+    background-color: #1F2937;
+    padding: 48px 128px 128px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.introduction {
+    display: flex;
+    gap: 64px;
+}
+
+.introduction-image {
+    width: 400px;
+    height: auto;
+}
+
+.introduction-left {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.information {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 48px 128px 128px;
+}
+
+.small-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    border: #3882F6 solid;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 48px 128px 128px;
+    display: flex;
+    flex-flow: column;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
