@@ -3,6 +3,9 @@ body {
     display: flex;
     flex-flow: column;
     font-size: 18px;
+}
+
+h1, h2, h3, ul, body {
     margin: 0;
 }
 
@@ -14,8 +17,8 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 32px;
-    margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 h1 {
@@ -30,17 +33,20 @@ h2 {
     color: #1F2937;
 }
 
+
 img {
     object-fit: cover;
+    border-radius: 16px;
 }
 
 button {
     background-color: #3882F6;
     color: white;
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 6px 20px;
     font-size: 14px;
     font-weight: bold;
+    border: none;
 }
 
 .introduction-subtext, .header-links {
@@ -57,7 +63,8 @@ button {
     display: flex;
     flex-flow: column;
     background-color: #1F2937;
-    padding: 48px 128px 128px;
+    padding: 48px 256px 128px;
+    gap: 64px;
 }
 
 .header {
@@ -69,12 +76,13 @@ button {
 .introduction {
     display: flex;
     gap: 64px;
+    justify-content: space-between;
 }
 
 .introduction-image {
-    width: 400px;
+    max-width: 450px;
     height: auto;
-}
+´}
 
 .introduction-left {
     display: flex;
@@ -86,19 +94,19 @@ button {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 48px 128px 128px;
+    padding: 48px 256px 128px;
+    gap: 48px;
 }
 
 .small-image {
     width: 200px;
     height: 200px;
-    border-radius: 16px;
     border: #3882F6 solid;
 }
 
 .quote {
     background-color: #E5E7EB;
-    padding: 48px 128px 128px;
+    padding: 128px 256px;
     display: flex;
     flex-flow: column;
 }
@@ -115,4 +123,40 @@ button {
     font-weight: bold;
     font-size: 20px;
     margin: 0;
+}
+
+.calltoaction {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 128px 48px;
+    margin: 92px 256px;
+    border-radius: 12px;
+    gap: 96px;
+}
+
+.calltoaction-text {
+    display: flex;
+    flex-flow: column;
+    color: white;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 128px 48px;
+    background-color:#1F2937;
+    color: white;
+}
+
+.calltoaction-button {
+    background-color: #3882F6;
+    border: white solid 2px;
+    border-radius: 6px;
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
 }
